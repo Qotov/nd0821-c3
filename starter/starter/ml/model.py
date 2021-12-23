@@ -1,4 +1,6 @@
 from sklearn.metrics import fbeta_score, precision_score, recall_score
+from sklearn.linear_model import LogisticRegression
+import pickle
 
 
 # Optional: implement hyperparameter tuning.
@@ -58,3 +60,14 @@ def inference(model, X):
         Predictions from the model.
     """
     return model.predict(X)
+
+def save_model(model, file):
+    with open(file, "wb") as f:
+        pickle.dump(model, f)
+    return
+
+
+def load_model(file):
+    with open(file, "rb") as f:
+        model = pickle.load(f)
+    return model

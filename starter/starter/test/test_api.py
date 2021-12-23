@@ -51,7 +51,7 @@ def example_2():
 def test_get_path():
     r = client.get("/")
     assert r.status_code == 200
-    assert r.json() == ["Greetings!"]
+    assert r.json() == ["Greetings!!!"]
 
 
 def test_post_more_than_fifty(example_1):

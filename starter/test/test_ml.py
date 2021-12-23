@@ -1,9 +1,7 @@
 import pytest
 import numpy as np
-import sys
-sys.path.insert(1, '../ml/')
 from sklearn.linear_model import LogisticRegression
-from model import train_model, compute_model_metrics, inference
+from starter.ml.model import train_model, compute_model_metrics, inference
 
 import logging
 

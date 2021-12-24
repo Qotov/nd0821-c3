@@ -91,9 +91,9 @@ async def create_item(data: Data = Body(None,
 
     data = pd.DataFrame.from_dict(dict)
 
-    loaded_encoder = load_model('encoder')
-    loaded_model = load_model('naive_bias.sav')
-    loaded_lb = load_model('labelbinarizer')
+    loaded_encoder = load_model('encoder.pkl')
+    loaded_model = load_model('model.pkl')
+    loaded_lb = load_model('label_binarizer.pkl')
 
     X, _, _, _ = process_data(
         data, categorical_features=cat_features, training=False, encoder=loaded_encoder

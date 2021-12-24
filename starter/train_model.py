@@ -29,10 +29,10 @@ def data_slicing(feature, y_test, preds):
 # Add code to load in the data.
 
 # Read cleaned version!
-data = pd.read_csv("./data/census.csv")
+df = pd.read_csv("../data/census.csv")
 
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
-train, test = train_test_split(data, test_size=0.20)
+train, test = train_test_split(df, test_size=0.20)
 feature = test["occupation"].to_numpy()
 
 cat_features = [

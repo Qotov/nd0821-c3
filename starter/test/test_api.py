@@ -30,7 +30,7 @@ def example_1():
 @pytest.fixture(scope='session')
 def example_2():
     example = {
-        "age": 1,
+        "age": 40,
         "workclass": "State-gov",
         "fnlgt": 77516,
         "education": "Bachelors",

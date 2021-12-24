@@ -1,0 +1,15 @@
+For ? - precision: 0.391304347826087, recall 0.24324324324324326, f_beta 0.30000000000000004
+For Adm-clerical - precision: 0.5, recall 0.21649484536082475, f_beta 0.302158273381295
+For Armed-Forces - precision: 1.0, recall 0.0, f_beta 0.0
+For Craft-repair - precision: 0.5147058823529411, recall 0.21212121212121213, f_beta 0.30042918454935624
+For Exec-managerial - precision: 0.9193548387096774, recall 0.2992125984251969, f_beta 0.45148514851485155
+For Farming-fishing - precision: 0.5, recall 0.35714285714285715, f_beta 0.41666666666666663
+For Handlers-cleaners - precision: 0.42857142857142855, recall 0.25, f_beta 0.3157894736842105
+For Machine-op-inspct - precision: 0.3157894736842105, recall 0.13636363636363635, f_beta 0.19047619047619047
+For Other-service - precision: 0.23529411764705882, recall 0.16666666666666666, f_beta 0.19512195121951217
+For Priv-house-serv - precision: 1.0, recall 1.0, f_beta 1.0
+For Prof-specialty - precision: 0.8203125, recall 0.29329608938547486, f_beta 0.4320987654320988
+For Protective-serv - precision: 0.75, recall 0.20930232558139536, f_beta 0.32727272727272727
+For Sales - precision: 0.8153846153846154, recall 0.27040816326530615, f_beta 0.40613026819923376
+For Tech-support - precision: 0.7333333333333333, recall 0.16923076923076924, f_beta 0.275
+For Transport-moving - precision: 0.5416666666666666, recall 0.2, f_beta 0.29213483146067415
